@@ -10,6 +10,7 @@ using TestRESTService.Repositories.Interfaces;
 namespace TestRESTService
 {
     //Build consoleApp cmd: dotnet publish -c Release -r win10-x64
+    //To DEBUG this application, you have to put ServicePlugin.dll (fresh version) here: ~\StarWindTask\TestRESTService\bin\Debug\netcoreapp2.1
     public class Startup
     {
         public void Configure(IApplicationBuilder app, ILoggerFactory log)
